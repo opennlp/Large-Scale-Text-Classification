@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#Pycharm dependencies
+
+.idea/
+models/*.magnitude
+logs/*.log
+interpretationfiles/
+playground/
+resultfiles/

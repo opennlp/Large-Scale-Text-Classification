@@ -1,2 +1,2 @@
 # Large-Scale-Text-Classification
-Large Scale benchmarking of state of the art text vectorizers 
+Comparing Neural Embeddings with traditional functions like Hashing Trick and Tf-Idf
