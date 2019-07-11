@@ -21,6 +21,15 @@ def get_summary_statistics(columns_to_keep_list,metric_name_list,less_than_value
     return dataframe.describe()
 
 
+def get_dataset_details(columns_to_keep_list, less_than_value=None,greater_than_value=None):
+    dataframe = dataframeutils.get_dataframe_size_filter(less_than_value=less_than_value,
+                                                         greater_than_value=greater_than_value)
+    dataframe.drop_duplicates(subset=['data_filename'], keep='first', inplace=True)
+    dataframe['data_filename'] = list(map(lambda x:x.rsplit('_',1)[0],dataframe['data_filename'].values))
+    dataframe = dataframe[columns_to_keep_list]
+    return dataframe
+
+
 def get_global_statistics():
     for vectorizer in commonconstants.VECTORIZER_LIST:
         print("----------- For Vectorizer %s -----------\n" % vectorizer)
@@ -108,4 +117,9 @@ def get_data_size_stats_imbalance_category(lower_range=None,upper_range=None):
     print('---------------------------------\n')
 
 
-get_statistics_by_category(greater_than_size=50000)
+# get_statistics_by_category(greater_than_size=50000)
+# columns_to_keep = ['data_filename','category_folder_name','num_rows','num_tokens','average_sentence_length','num_class_labels']
+# df = get_dataset_details(columns_to_keep)
+# print(df)
+# print(len(df))
+# df.to_html('dataset.html',index=False,justify='center')
