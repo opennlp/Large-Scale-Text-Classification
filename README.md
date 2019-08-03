@@ -8,7 +8,7 @@ In this paper we study the performance of several text vectorization algorithms 
 Our experiments reveal that the sparse vectorizers beat the neural word and character embedding models on <b><i> 61 of the 73 </b></i>datasets by an average margin of <b><i> 3-5% </i></b>(in terms of macro f1 score) and this performance is consistent across the different dimensions of comparison.
 
 ## Resources
-1. Datasets used in the experiment can be downloaded from the following [link](http://tinyurl.com/yyofx77r) 
-2. Pre-trained embedding models can be downloaded from [here](https://tinyurl.com/y2mlnhdf)
-3. All result files can be viewed [here](https://tinyurl.com/y5e4hftt)
-4. Detailed visualization of the feature vectors can be seen [here](https://tinyurl.com/yxgf2vuj)
+- Datasets used in the experiment can be downloaded from the following [link](http://tinyurl.com/yyofx77r) 
+- Pre-trained embedding models can be downloaded from [here](https://tinyurl.com/y2mlnhdf)
+- All result files can be viewed [here](https://tinyurl.com/y5e4hftt)
+- Detailed visualization of the feature vectors can be seen [here](https://tinyurl.com/yxgf2vuj)
