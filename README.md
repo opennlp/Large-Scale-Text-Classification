@@ -12,3 +12,15 @@ Our experiments reveal that the sparse vectorizers beat the neural word and char
 - Pre-trained embedding models can be downloaded from [here](https://tinyurl.com/y2mlnhdf)
 - All result files can be viewed [here](https://tinyurl.com/y5e4hftt)
 - Detailed visualization of the feature vectors can be seen [here](https://tinyurl.com/yxgf2vuj)
+
+## Steps to execute the code
+
+1. git clone the repository to your local system
+2. Run the following command to install all dependencies - 
+```markdown
+pip install -r requirements.txt
+```
+3. Download the pre-trained models and create a folder named models in the root directory of the project and put these pre-trained models there
+4. Download the datasets from the url provided, then add this path to the file ``` commonconstants.py ``` under the constants package. Also modify other file locations as per your local system requirements
+5. Keep a local ``` mongodb ``` instance running to store all the result json files.
+6. Run the file ```benchmark_pipeline.py``` under the pipeline package to see the results on the screen
