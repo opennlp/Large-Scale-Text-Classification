@@ -24,3 +24,7 @@ pip install -r requirements.txt
 4. Download the datasets from the url provided, then add this path to the file ``` commonconstants.py ``` under the constants package. Also modify other file locations as per your local system requirements
 5. Keep a local ``` mongodb ``` instance running to store all the result json files.
 6. Run the file ```benchmark_pipeline.py``` under the pipeline package to see the results on the screen
+
+### Support or Contact
+
+We are always happy to receive feedback on ways to improve the framework. Feel free to raise a PR in case of you find a bug or would like to improve a feature. In case of any queries please feel free to reach out to [Rupak](mailto:rupak97.4@gmail.com)
