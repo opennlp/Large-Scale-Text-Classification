@@ -38,8 +38,15 @@ Spam-Fake-Ironic-Hate (5)	|75.9/71.0/82.6	|78.0/72.4/83.7	|77.8/72.4/83.6	|70.7/
 Medical (4)	|45.2/40.2/70.3	|42.9/40.3/70.1	|45.6/40.8/70.3	|40.6/36.9/68.7	|53.8/45.9/73.8	|47.3/42.2/70.6	|49.3/42.2/71.3
 News (4)	|50.6/49.4/66.6	|48.6/48.3/66.2	|48.9/48.7/66.1	|35.9/36.6/54.3	|63.0/60.0/77.6	|58.1/55.8/73.2	|63.2/60.9/78.4
 
+The table presents the values for <b> Precision/Recall/Accuracy </b>, the results have been averaged across all the classifiers used in the study. The size of the datasets used in the table is less than or equal to 10K. Please refer to our paper for detailed results over the entire dataset.
 
-
+<p float="left>
+<img src="https://i.ibb.co/F81m57Y/accuracy-vectorizer.png" width="150" />
+<img src="https://i.ibb.co/cYJC268/classifier-accuracy.png" width="150" />
+<img src="https://i.ibb.co/56KWhGC/f1-classifier.png" width="150" />
+<img src="https://i.ibb.co/5vCF91F/f1-vectorizer.png" width="150" />
+                                             
+</p>                                            
 
 ### Support or Contact
 
