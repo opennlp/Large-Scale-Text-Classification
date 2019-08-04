@@ -25,6 +25,22 @@ pip install -r requirements.txt
 5. Keep a local ``` mongodb ``` instance running to store all the result json files.
 6. Run the file ```benchmark_pipeline.py``` under the pipeline package to see the results on the screen.
 
+## Experimental Results
+
+Category Name|GloVe|FastText|Word2Vec|ELMo|Tf-Idf|FeatureHash|Flair
+-------------|------|-------|--------|----|------|----------|-------
+Sentiment (10)	|41.6/38.1/59.5|	42.9/38.9/59.9|	42.9/38.2/59.4|	36.1/35.1/57.1|	47.0/42.2/63.3|	45.0/41.3/61.8|	43.3/38.9/60.0
+Emotion (1)|	14.3/10.3/21.2	|12.5/9.1/20.4	|11.7/9.6/20.8|	7.9/7.0/19.0|	14.2/10.2/19.1|	15.0/10.6/18.3|	8.6/8.2/18.6
+General Classification (8)	|56.8/49.5/64.8	|55.9/49.2/64.6	|54.3/48.6/64.0	|46.8/44.9/61.5	|60.7/55.3/68.3	|58.2/51.8/65.1	|56.5/52.2/65.0
+Other (5)	|59.7/56.8/67.8	|59.7/56.4/67.4	|59.1/56.6/67.6	|52.9/52.1/65.5	|61.5/55.6/69.8	|57.1/53.3/68.6	|59.1/52.8/67.0
+Reviews (2)	|52.1/37.6/83.4	|44.2/37.5/83.2	|52.1/37.6/83.2	|45.6/37.7/83.1	|57.4/43.9/85.4	|50.0/43.6/84.1	|55.8/42.2/84.0
+Spam-Fake-Ironic-Hate (5)	|75.9/71.0/82.6	|78.0/72.4/83.7	|77.8/72.4/83.6	|70.7/64.8/81.0	|84.3/79.3/87.6	|80.0/74.9/84.5	|79.9/76.3/85.4
+Medical (4)	|45.2/40.2/70.3	|42.9/40.3/70.1	|45.6/40.8/70.3	|40.6/36.9/68.7	|53.8/45.9/73.8	|47.3/42.2/70.6	|49.3/42.2/71.3
+News (4)	|50.6/49.4/66.6	|48.6/48.3/66.2	|48.9/48.7/66.1	|35.9/36.6/54.3	|63.0/60.0/77.6	|58.1/55.8/73.2	|63.2/60.9/78.4
+
+
+
+
 ### Support or Contact
 
 We are always happy to receive feedback on ways to improve the framework. Feel free to raise a PR in case of you find a bug or would like to improve a feature. In case of any queries please feel free to reach out to [Rupak](mailto:rupak97.4@gmail.com)
