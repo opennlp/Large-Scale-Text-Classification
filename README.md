@@ -40,13 +40,14 @@ News (4)	|50.6/49.4/66.6	|48.6/48.3/66.2	|48.9/48.7/66.1	|35.9/36.6/54.3	|63.0/6
 
 The table presents the values for <b> Precision/Recall/Accuracy </b>, the results have been averaged across all the classifiers used in the study. The size of the datasets used in the table is less than or equal to 10K. Please refer to our paper for detailed results over the entire dataset.
 
-<p float="left>
+<p float="left">
 <img src="https://i.ibb.co/F81m57Y/accuracy-vectorizer.png" width="150" />
 <img src="https://i.ibb.co/cYJC268/classifier-accuracy.png" width="150" />
 <img src="https://i.ibb.co/56KWhGC/f1-classifier.png" width="150" />
-<img src="https://i.ibb.co/5vCF91F/f1-vectorizer.png" width="150" />
-                                             
+<img src="https://i.ibb.co/5vCF91F/f1-vectorizer.png" width="150" />                                             
 </p>                                            
+
+The images given above show the following metrics (from left to right) - 1. Violin Plot showing the accuracy of all the vectorizers used in the study across all the datasets. 2. Violin Plot showing the accuracy of the classifiers used in the present study, under the same conditions as 1. 3. Macro f1-score of the classifiers used. 4. Macro f1-score of the vectorizers used.
 
 ### Support or Contact
 
