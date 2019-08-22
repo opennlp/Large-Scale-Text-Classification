@@ -1,7 +1,7 @@
 # Large-Scale-Text-Classification
 
 <b> Sparse Victory - A Large Scale Systematic Comparison of count-based and prediction-based vectorizers for text classification </b>
-<i> Rupak Chakraborty, Ashima Elhence, Kapil Arora , Proceedings of the Recent Advances in Natural Language Processing, Varna, Bulgaria, 2019 </i> [paper link](https://drive.google.com/file/d/1-8kU0-IPyEV12wRdGaOXxgwM1-GZpJki/view?usp=sharing)
+<i> Rupak Chakraborty, Ashima Elhence, Kapil Arora , Proceedings of the Recent Advances in Natural Language Processing, Varna, Bulgaria, 2019 </i> [[paper link]](https://drive.google.com/file/d/1-8kU0-IPyEV12wRdGaOXxgwM1-GZpJki/view?usp=sharing)
 <br>
 ## Overview
 In this paper we study the performance of several text vectorization algorithms on a diverse collection of <b> 73 </b> publicly available datasets. Traditional sparse vectorizers like Tf-Idf and Feature Hashing have been systematically compared with the latest state of the art neural word embeddings like <b><i> Word2Vec, GloVe, FastText </b></i> and character embeddings like <b><i> ELMo, Flair.</b></i> We have carried out an extensive analysis of the performance of these vectorizers across different dimensions like classification metrics (.i.e. precision, recall, accuracy), dataset-size, and imbalanced data (in terms of the distribution of the number of class labels). 
