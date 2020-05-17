@@ -51,4 +51,4 @@ The images given above show the following metrics (from left to right) - 1. Viol
 
 ### Support or Contact
 
-We are always happy to receive feedback on ways to improve the framework. Feel free to raise a PR in case of you find a bug or would like to improve a feature. In case of any queries please feel free to reach out to [Rupak](mailto:rupak97.4@gmail.com)
+We are always happy to receive feedback on ways to improve the framework. Feel free to raise a PR in case of you find a bug or would like to improve a feature. In case of any queries please feel free to reach out to [Rupak](mailto:rupak97.4@gmail.com) or [Ashima](mailto:elhenceashima@gmail.com)
