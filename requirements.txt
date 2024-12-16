@@ -1,7 +1,7 @@
 scikit-learn==1.5.0
 pandas==0.22
 daiquiri==1.5
-nltk==3.2.5
+nltk==3.9
 numpy==1.22.0
 pymongo==4.6.3
 six==1.11.0
