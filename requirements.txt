@@ -8,5 +8,5 @@ six==1.11.0
 pymagnitude==0.1.120
 tensorflow==2.12.1
 tensorflow_hub==0.2.0
-sentencepiece==0.1.8
+sentencepiece==0.2.1
 lime==0.1.1.32
